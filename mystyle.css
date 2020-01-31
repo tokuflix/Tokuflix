@@ -1,115 +1,30 @@
-.thumb {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-}
 
-hr { 
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-  border-width: 5px;
-}
+.thumb{display:flex;flex-wrap:wrap;list-style:none}
 
-.thumb li {
-  width: auto;
-  
-  
-}
+hr{display:block;margin-top:.5em;margin-bottom:.5em;margin-left:auto;margin-right:auto;border-style:solid;border-width:5px}
 
-.thumb li ~ li {
-  margin-left: 0px;
-}
+.thumb li{width:auto}.thumb li~li{margin-left:0}
 
-.thumb .thumbCaption {
-  padding: 0px 0;
-}
+.thumb .thumbCaption{padding:0 0}
 
-.overlay {
-  position: relative;
-}
+.overlay{position:relative}
 
-.overlay .thumbnail {
-  display: block;
-}
+.overlay .thumbnail{display:block}
 
-.overlay .time {
-  position: auto;
-  right: 3px; bottom: 3px;
-  padding: 2px 5px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-}
+.overlay .time{position:auto;right:3px;bottom:3px;padding:2px 5px;background-color:rgba(0,0,0,.6);color:#fff}
 
-.overlay .playWrapper {
-  opacity: 0;
-  position: absolute; z-index: 1;
-  top: 0;
-  width: 192; height: 109;
-  background: rgba(0,0,0,0.6) url("http://wptf.com/wp-content/uploads/2014/05/play-button.png") no-repeat scroll center center / 50px 50px;
-}
+.overlay .playWrapper{opacity:0;position:absolute;z-index:1;top:0;width:192px;height:109px;background:rgba(0,0,0,0.6) url("http://wptf.com/wp-content/uploads/2014/05/play-button.png") no-repeat scroll center center/50px 50px}
 
-.playWrapper .playBtn {
-  position: absolute; z-index: 2;
-  width: 50px; height: 50px;
-  left: 0; right: 0; top: 0; bottom: 0; margin: auto; /* center */
-}
+.playWrapper .playBtn{position:absolute;z-index:2;width:50px;height:50px;left:0;right:0;top:0;bottom:0;margin:auto}
 
-.thumb .overlay:hover .playWrapper {
-  opacity: 1;
-}
+.thumb .overlay:hover .playWrapper{opacity:1}
 
-hr { 
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 10px;
-} 
+hr{display:block;margin-top:.5em;margin-bottom:.5em;margin-left:auto;margin-right:auto;border-style:inset;border-width:10px}
 
-.info {
-  border: 1px solid white;
-  padding: 8px;
-}
+.info{border:1px solid #fff;padding:8px}p{text-indent:30px}*{box-sizing:border-box}.column{float:left;width:33.33%;padding:5px}
 
-p { 
-   text-indent: 30px;
-}
+.column2{float:auto;text-align:justify;width:100%;padding:5px}.column3{float:auto;width:100%;padding:0;column-count:2}
 
-* {
-  box-sizing: border-box;
-}
+.tag{width:320px;padding:10px;border:3px solid gray;text-align:center;margin:10}
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-.column2 {
-  float: auto;
-  text-align: justify;
-  width: 100%;
-  padding: 5px;
-}
-
-.column3 {
-  float: auto;
-  width: 100%;
-  padding: 0px;
-  column-count: 2;
-}
-.tag{  
-  width: 320px;
-  padding: 10px;
-  border: 3px solid gray;
-  text-align: center;
-  margin: 10;
-}
-.clearfix {
-  overflow: auto;
-}
+.clearfix{overflow:auto}
